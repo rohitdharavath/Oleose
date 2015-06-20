@@ -193,7 +193,7 @@ section#home{
   background: url("../img/freeze/bk-freeze.jpg");
 }
 section#home .wrapper{
-  background-color: rgba(36, 36, 36, 0.2)
+  background-color: rgba(36, 36, 36, 0.6)
 }
 section#home .form-control {
   width:80%;
