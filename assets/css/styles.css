@@ -189,6 +189,34 @@ header .navbar-default.scrolled ul.navbar-nav {
 .section-heading.inverse .divider:after {
   background: #ffffff;
 }
+section#home{
+  background: url("../img/freeze/bk-freeze.jpg");
+}
+section#home .wrapper{
+  background-color: rgba(36, 36, 36, 0.2)
+}
+section#home .form-control {
+  width:80%;
+  padding:25px;
+  border-radius: 3px;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+section#home .btn-info {
+  min-width: 50px;
+  padding:15px;
+  border-radius: 3px;
+  margin-left: -3px;
+}
+section#home .jumbotron{
+  background-color: transparent;
+  color:#fff;
+
+}
+.jumbotron h1{
+  font-size: 36px;
+  padding-top: 30px;
+}
 section#about {
   position: relative;
 }
@@ -599,7 +627,7 @@ form .form-control {
   line-height: 40px;
   padding: 10px 20px;
   color: #cfcfcf;
-  border: 2px solid #cccccc;
+  border: 1px solid #cccccc;
   font-weight: 300;
 }
 form textarea.form-control {
